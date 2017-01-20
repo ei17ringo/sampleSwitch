@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func changeSwitch(_ sender: UISwitch) {
-//        print("切り替わったよ")
+        
         print(sender.isOn)
         
         if sender.isOn {
